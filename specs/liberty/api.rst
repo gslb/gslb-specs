@@ -118,7 +118,7 @@ Monitor JSON Snippet - TCP Basic
  .. code-block:: json
 
     {
-      "id" : "f9fc6210-8efa-4492-9b4f-d87ba98f35b8"
+      "id" : "f9fc6210-8efa-4492-9b4f-d87ba98f35b8",
       "type" : "TCP",
       "delay" : 20,
       "timeout": 10,
@@ -133,7 +133,7 @@ Monitor JSON Snippet - Ping Basic
  .. code-block:: json
 
     {
-      "id" : "f9fc6210-8efa-4492-9b4f-d87ba98f35b8"
+      "id" : "f9fc6210-8efa-4492-9b4f-d87ba98f35b8",
       "type" : "PING",
       "delay" : 20,
       "timeout": 10,
@@ -147,12 +147,12 @@ Monitor JSON Snippet - HTTP
  .. code-block:: json
 
     {
-      "id" : "f9fc6210-8efa-4492-9b4f-d87ba98f35b8"
+      "id" : "f9fc6210-8efa-4492-9b4f-d87ba98f35b8",
       "delay": 20,
       "timeout": 10,
       "max_retries": 3,
-      "type": 'HTTP',
-      "http_method": 'GET',
+      "type": "HTTP",
+      "http_method": "GET",
       "url_path": "/healthchecks",
       "receive_string" "SUCCESS",
       "expected_codes": [
@@ -169,13 +169,13 @@ Monitor JSON Snippet - HTTPS
  .. code-block:: json
 
     {
-      "id" : "f9fc6210-8efa-4492-9b4f-d87ba98f35b8"
+      "id" : "f9fc6210-8efa-4492-9b4f-d87ba98f35b8",
       "delay": 20,
       "timeout": 10,
       "max_retries": 3,
-      "type": 'HTTPS',
+      "type": "HTTPS",
       "insecure": False,
-      "http_method": 'POST',
+      "http_method": "POST",
       "payload": {
         "content_type" : "application/json",
         "content" "{'demo': 'JSON', 'Blob': 'of data'}"

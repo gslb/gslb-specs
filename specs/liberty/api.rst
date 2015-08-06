@@ -154,7 +154,7 @@ Monitor JSON Snippet - HTTP
       "type": "HTTP",
       "http_method": "GET",
       "url_path": "/healthchecks",
-      "receive_string" "SUCCESS",
+      "receive_string": "SUCCESS",
       "expected_codes": [
         200,
         202
@@ -174,7 +174,7 @@ Monitor JSON Snippet - HTTPS
       "timeout": 10,
       "max_retries": 3,
       "type": "HTTPS",
-      "insecure": False,
+      "insecure": false,
       "http_method": "POST",
       "payload": {
         "content_type" : "application/json",
